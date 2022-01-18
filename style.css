@@ -15,8 +15,8 @@ body {
   height: 100vh;
   position: relative;
   background: #f7971e;
-  background: -webkit-linear-gradient(to right, #ffd200, #f7971e);
-  background: linear-gradient(to right, #ffd200, #f7971e);
+  background: -webkit-linear-gradient(to right, #ffe259, #ffa751);
+  background: linear-gradient(to right, #ffe259, #ffa751);
 }
 
 .menu_overlay {
@@ -34,6 +34,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .list {
@@ -141,15 +142,30 @@ body {
   margin-bottom: -22px;
   margin-right: 70px;
   z-index: 10;
+  animation: fadeInDelay 3s;
+
 }
 
 .h2-l {
   margin-left: 100px;
   background-color: #4b134f;
   padding-right: 10px;
-  /* padding: 45px; */
-  z-index: 0;
+  animation: fadeIn linear 2s;
 }
+
+
+@keyframes fadeInDelay{
+  0% {opacity:0;}
+  55% {opacity: 0;}
+  100% {opacity:1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  20% {opacity: 0;}
+  100% {opacity:1;}
+}
+
 
 @media screen and (max-width: 650px) {
   .list a {
