@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
@@ -42,15 +42,15 @@ body {
   width: 40%;
   position: relative;
   list-style: none;
-  display: flex;
+  display: contents;
   align-items: center;
   justify-content: center;
 }
 
 .list li {
   height: 100px;
-  width: 170px;
-  padding: 20px;
+  width: 200px;
+  padding: 25px;
 }
 
 .list a {
