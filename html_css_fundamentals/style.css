@@ -14,9 +14,9 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: #f7971e;
-  background: -webkit-linear-gradient(to right, #ffd200, #f7971e);
-  background: linear-gradient(to right, #ffd200, #f7971e);
+  background: #ffe259;
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+  background: linear-gradient(to right, #ffa751, #ffe259);
 }
 
 .menu_overlay {
@@ -56,7 +56,7 @@ body {
   font-size: 1.8rem;
   text-decoration: none;
   color: #fff;
-  /* display: block; */
+  display: block;
   border-bottom: 2px solid transparent;
   transition: all 0.4s ease;
 }
@@ -90,4 +90,21 @@ body {
   position: absolute;
   right: 20px;
   top: 20px;
+}
+
+.topnav {
+  padding-top: 1%;
+    text-align: center;
+}
+
+.topnav a {
+  color: black;
+  padding-right: 8%;
+  padding-left: 8%;
+  font-size: 22px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
